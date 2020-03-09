@@ -1,0 +1,39 @@
+@media only screen and (min-width: 960px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #loginCol{
+        margin-left: 0;
+    }
+
+    #column {
+   
+        align-items: center;
+    }
+    
+}
+
+
+#navbar {
+    background-color: #2980b9;
+}
+
+#column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#loginCol{
+    margin-left: 0;
+}
+
+#btn {
+border-radius: 20px;
+}
+
+h4 {
+    text-align: center;
+}
